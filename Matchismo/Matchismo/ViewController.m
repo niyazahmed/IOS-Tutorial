@@ -28,6 +28,8 @@
     if(!_game) {
        _game = [[CardMatchingGame alloc] initWithCardCount:[self.cardButtons count]
                                                  usingDeck:[self createDeck]];
+        [self.cardSwitch setUserInteractionEnabled:YES];
+        self.cardSwitch.selectedSegmentIndex=0;
     }
     return _game;
 }
