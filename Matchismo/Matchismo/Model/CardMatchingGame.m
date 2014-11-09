@@ -13,7 +13,7 @@
 @interface CardMatchingGame()
 @property (nonatomic,readwrite)NSInteger score;
 @property (nonatomic,strong)NSMutableArray *cards; //cards
-@property (nonatomic)enum category gameType;
+@property (nonatomic)enum gameType;
 @end
 
 
